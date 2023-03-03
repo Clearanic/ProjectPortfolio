@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+/*Colors
+#F55D3E Tomato orange
+#5CDCFF Light Blue
+#001f27 Dark Blue
+#00B4E6 Sea Blue
+*/
+
+/* Entire page styles */
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    background-color: #00B4E6;
+}
+a {
+    text-decoration: none;
+    color:#00B4E6;
+}
+
+a:hover {
+    color: #70E0FF;
+}
+
+
+/*Navbar*/
+header {
+    background-color: #001f27;
+    color: #00B4E6;
+}
+
+header h1 {
+    font-family: "Inconsolata", monospace;
+    font-size: 2em;
+    padding: 1em 1em;
+    margin-left: 3.7em;
+}
+
+header li {
+    display: inline;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cta {
+    background-color: #F55D3E;
+    color:#001f27;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: .5em .5em;
+    margin-right: 8em;
+
+}
+
+#cta:hover {
+    background-color: #F66C51;
+    color: #004152;
+}
+
+
+/*hero section*/
+.hero{
+    height: calc(100svh - 96px);
+    font-size: 2em;
+    color: #001f27;
+    background-color: #fff;
+    font-weight: 600;
+    line-height: 1.2em;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    clip-path: polygon(0 0, 100% 0%, 100% 35%, 0% 100%);
+}
+
+.hero-text-container {
+    margin-bottom: 13.8em;
+    margin-right:2em;
+}
+
+.hero-svg {
+    margin-bottom: 10em;
+}
+.hero h2 {
+    font-size: 3.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.hero h2 strong {
+    color:#00B4E6;
+}
+
+.projects {
+    background-color:#001f27;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    
+}
+
+.projects img{
+    width: 250px;
+
+height: 250px;
+}
+
+.project-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 3em;
+    width:450px;
+}
+
+.project-overlay {
+    margin-top: 4.44em;
+    position:absolute;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.project-display:hover .project-overlay {
+    opacity: 0.8;
+
+}
+    
+.FadeEffect {
+    height: 250px;
+    width: 250px;
+    top: 0;
+    left: 100px;
+    background-color: rgba(245, 245, 245, 0.3);
+
+}
+
+.project-display h2 {
+    color:#00B4E6;
+    font-size: 1.5em;
+    padding: 1em 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fill {
+    filter: invert(61%) sepia(45%) saturate(5749%) hue-rotate(158deg) brightness(100%) contrast(101%);
+}
