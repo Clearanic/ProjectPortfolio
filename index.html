@@ -38,70 +38,100 @@
         <!--Section for Projects-->
         <main>
             <section id="projects" class="projects">
+                <h2>Projects</h2>
                 <div class="project-display">
-                    <h2>Project 1</h2>
-                    <img src="./Images/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg">
-                    <div class="project-overlay FadeEffect"></div>
+                    <h3>Project 1</h3>
+                    <p>Description and project coming soon</p>
+                    <a href="#">See Live</a>
+                    <a href="#">Source Code</a>
+                    <img src="./Images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="project image">
                 </div>
                 <div class="project-display">
-                    <h2>Project 2</h2>
-                    <img src="./Images/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg">
+                    <h3>Project 1</h3>
+                    <p>Description and project coming soon</p>
+                    <a href="#">See Live</a>
+                    <a href="#">Source Code</a>
+                    <img src="./Images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="project image">
                 </div>
                 <div class="project-display">
-                    <h2>Project 3</h2>
-                    <img src="./Images/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg">
+                    <h3>Project 1</h3>
+                    <p>Description and project coming soon</p>
+                    <a href="#">See Live</a>
+                    <a href="#">Source Code</a>
+                    <img src="./Images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="project image">
                 </div>
                 <div class="project-display">
-                    <h2>Project 4</h2>
-                    <img src="./Images/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg">
+                    <h3>Project 1</h3>
+                    <p>Description and project coming soon</p>
+                    <a href="#">See Live</a>
+                    <a href="#">Source Code</a>
+                    <img src="./Images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="project image">
                 </div>
             </section>
             <section id="toolbox" class="toolbox">
                 <h2>TOOLBOX</h2>
-                <h3 class="toolbox-header">Front-End</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JS</li>
-                    <li>React</li>
-                    <li>TypeScript</li>
-                    <li>Redux</li>
-                </ul>
-                <h3 class="toolbox-header">Back-End</h3>
-                <ul>
-                    <li>Express.js</li>
-                    <li>Node.js</li>
-                    <li>RESTful</li>
-                    <li>portgre.SQL</li>
-                </ul>
-                <div class="decortive-toolbox blue"></div>
+                <div class="toolbox-container-flex">
+                    <div class="front-end-container">
+                        <h3 class="toolbox-header">Front-End</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JS</li>
+                            <li>React</li>
+                            <li>TypeScript</li>
+                            <li>Redux</li>
+                        </ul>
+                    </div>
+                    <div class="back-end-container">
+                        <h3 class="toolbox-header">Back-End</h3>
+                        <ul>
+                            <li>Express.js</li>
+                            <li>Node.js</li>
+                            <li>RESTful</li>
+                            <li>portgre.SQL</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
             <section id="contact-me" class="contact-me">
                 <h2>CONTACT ME</h2>
-                <label for="firstname">First name</label><br>
-                <input type="text" id="firstname" name="firstname" required><br>
-                <label for="lastname">Last name</label><br>
-                <input type="text" id="lastname" name="lastname" required><br>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="message">Message</label><br>
-                <textarea id="message" name="message" rows="8" cols="40"></textarea>
-
-                <div class="decortive-contact blue"></div>
-                <div class="decortive-contact orange"></div>
-
+                
+                <div class="label">
+                    <label for="firstname">First name</label>
+                </div>
+                    <br>
+                    <input type="text" id="firstname" name="firstname" required><br>
+                <div class="label">
+                    <label for="lastname">Last name</label>
+                </div>
+                    <br>
+                    <input type="text" id="lastname" name="lastname" required>
+                    <br>
+                <div class="label">
+                    <label for="email">Email</label>
+                </div>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                <div class="label">
+                    <label for="message">Message</label>
+                </div>
+                    <br>
+                    <textarea id="message" name="message" rows="8" cols="40"></textarea>
+                    <button class="submit" type="submit">Submit</button>
+            </section>
                 <!--Custom footer-->
                 <footer>
-                    <div class="container">
+                    <div class="footer-container">
                         <ul>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#toolbox">ToolBox</a></li>
-                            
-                        </ul>
+                            <li><a href="https://github.com/Clearanic"><img src="./Images/github.png" class="fill"></a></li>
+                            <li><a href="https://www.linkedin.com/in/christopherrmcdonald/"><img src="./Images/linkedin.png" class="fill"></a></li>
+                         </ul>
                     </div>
                 </footer>
-            </section>
         </main>
     <script src="script.js"></script>
 </html>
